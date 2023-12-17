@@ -8,7 +8,7 @@ const IntroWords = () => {
   const textFour = 'MERCY INTERNATIONAL'.split('');
 
   return (
-    <div className='absolute top-2/3 left-2 md:left-3'>
+    <div className='absolute bottom-12  md:bottom-10 left-2 md:left-5'>
       <div>
         {textTwo.map((el: any, i: number) => (
           <motion.span
@@ -73,7 +73,7 @@ const IntroWords = () => {
         }}
         viewport={{ once: true }}
       >
-        <Button className='bg-transparent border-2 border-white text-sm py-6 px-8 cursor-pointer z-10 mt-5'>
+        <Button className='bg-transparent border-2 border-white text-sm py-6 px-8 cursor-pointer z-10 mt-5 rounded-none'>
           NEW HERE ? <ArrowRight size={18} className='ml-2' />
         </Button>
       </motion.div>
