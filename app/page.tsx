@@ -3,7 +3,6 @@
 import AnimateLayout from '@/app/AnimateLayout';
 import IntroWords from '@/components/introWords';
 import WelcomeSection from '@/components/welcomeSection';
-import ConnectSection from '@/components/connectSection';
 import YearSection from '@/components/yearSection';
 import TiltCardView from '@/components/tiltCardView';
 import MonthSection from '@/components/monthSection';
