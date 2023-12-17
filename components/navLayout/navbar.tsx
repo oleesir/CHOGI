@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
     <div className='shadow h-[80px] z-50 top-0 bg-[#121A21] fixed w-full p-5 flex justify-center'>
       <div className='w-full max-w-7xl flex justify-between items-center'>
-        <Link href='/public' className='font-bold text-3xl text-[#FFF] cursor-pointer '>
+        <Link href='/' className='font-bold text-3xl text-[#FFF] cursor-pointer '>
           RHOMI
         </Link>
         <div className='flex'>

@@ -16,6 +16,12 @@ module.exports = {
       },
     },
     extend: {
+      // screens: {
+      //   sm: '576px', // Small devices (phones)
+      //   md: '768px', // Medium devices (tablets)
+      //   lg: '992px', // Large devices (desktops)
+      //   xl: '1200px', // Extra large devices (large desktops)
+      // },
       backgroundImage: {
         kids_church: "url('/kids_church.jpeg')",
       },

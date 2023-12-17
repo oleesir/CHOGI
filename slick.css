@@ -1,0 +1,40 @@
+.button__bar {
+    display: flex;
+    padding: 0;
+    margin: auto;
+    width: 100px;
+    white-space:nowrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.button__bar li {
+    list-style: none;
+    cursor: pointer;
+    float:left;
+    margin: 0 3px;
+    padding: 0;
+
+}
+
+.button__bar li button {
+    background: rgb(209 213 219);
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid rgb(209 213 219);
+}
+
+.button__bar li.slick-active button {
+    background-color: #121A21;
+    border: 1px solid #121A21;
+}
+
+.slick-slide img {
+    border: 5px solid #FFF;
+    display: block;
+    margin: auto;
+}
